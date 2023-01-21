@@ -2,7 +2,7 @@ import asyncio
 import random
 from telethon import events
 from config import MK1, MK2, MK3, MK4, MK5 , MK6, MK7, MK8, MK9, MK10, SUDO_USERS, OWNER_ID, CMD_HNDLR as hl
-from AltronX.data import RAID, REPLYRAID, ALTRON, MRAID, SRAID, CRAID, ALTRON
+from ThunderX.data import RAID, REPLYRAID, THUNDERX, MRAID, SRAID, CRAID, THINDERX
 
 que = {}
 
@@ -26,7 +26,7 @@ async def spam(e):
             message = str(mkraid[1])
             a = await e.client.get_entity(message)
             g = a.id
-            if int(g) in ALTRON:
+            if int(g) in THUNDERX:
                 await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴛʜᴜɴᴅᴇʀx'ꜱ ᴏᴡɴᴇʀ", parse_mode=None, link_preview=None)
             elif int(g) in SUDO_USERS:
                 await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ", parse_mode=None, link_preview=None)
@@ -44,7 +44,7 @@ async def spam(e):
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             g = b.id
-            if int(g) in ALTRON:
+            if int(g) in THUNDERX:
                 await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴛʜᴜɴᴅᴇʀx'ꜱ ᴏᴡɴᴇʀ", parse_mode=None, link_preview=None)
             elif int(g) in SUDO_USERS:
                 await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ", parse_mode=None, link_preview=None)
@@ -103,7 +103,7 @@ async def _(e):
             message = str(mkrr[0])
             a = await e.client.get_entity(message)
             user_id = int(a.id)
-            if int(user_id) in ALTRON:
+            if int(user_id) in THUNDERX:
                 await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴛʜᴜɴᴅᴇʀx'ꜱ ᴏᴡɴᴇʀ", parse_mode=None, link_preview=None)
             elif int(user_id) == OWNER_ID:
                 await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ", parse_mode=None, link_preview=None)
@@ -120,7 +120,7 @@ async def _(e):
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             user_id = int(b.id)
-            if int(user_id) in ALTRON:
+            if int(user_id) in THUNDERX:
                 await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴛʜᴜɴᴅᴇʀx'ꜱ ᴏᴡɴᴇʀ", parse_mode=None, link_preview=None)
             elif int(user_id) == OWNER_ID:
                 await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ", parse_mode=None, link_preview=None)
