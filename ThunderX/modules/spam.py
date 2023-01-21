@@ -17,7 +17,7 @@ import asyncio
 import random
 from telethon import events, functions, types
 from config import MK1, MK2, MK3, MK4, MK5 , MK6, MK7, MK8, MK9, MK10, SUDO_USERS, CMD_HNDLR as hl
-from AltronX.data import GROUP, PORMS
+from Thunderx.data import GROUP, PORMS
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
