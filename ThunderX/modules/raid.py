@@ -2,7 +2,7 @@ import asyncio
 import random
 from telethon import events
 from config import MK1, MK2, MK3, MK4, MK5 , MK6, MK7, MK8, MK9, MK10, SUDO_USERS, OWNER_ID, CMD_HNDLR as hl
-from ThunderX.data import RAID, REPLYRAID, THUNDERX, MRAID, SRAID, CRAID, THINDERX
+from ThunderX.data import RAID, REPLYRAID, THUNDERX, MRAID, SRAID, CRAID, THUNDERX
 
 que = {}
 
