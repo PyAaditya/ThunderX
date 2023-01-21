@@ -1,0 +1,5 @@
+build:
+  docker:
+    ThunderX: Dockerfile
+run:
+  ThunderX: python3 -m main.py
