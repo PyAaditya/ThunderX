@@ -29,8 +29,8 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/ViolenceChitChat"),
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TechXcode")
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/QuirkySquad"),
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ZenBotx")
            ],
            ],
            )
@@ -54,7 +54,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @PythonXcoder **
+**© @NoobZen **
 """
 
                  
@@ -86,7 +86,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @PythonXcoder **
+**© @NoobZen **
 """
 
 spam_msg = f"""
@@ -103,7 +103,7 @@ spam_msg = f"""
   1) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
 
-** © @PythonXcoder**
+** © @NoobZen**
 """                     
            
            
@@ -130,13 +130,13 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/ViolenceChitChat"),
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TechXCode")
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/QuirkySquad"),
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ZenBotx")
            ],
            ],
         )           
    else:
-        await event.answer("Make Your Own Thunder Bots !! @TechXcode", cache_time=0, alert=True)
+        await event.answer("Make Your Own Thunder Bots !! @NoobZen", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"spam"))
@@ -155,7 +155,7 @@ async def help_spam(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             ) 
    else:
-        await event.answer("Make Your Own Thunder Bots !! @PythonXcoder", cache_time=0, alert=True)
+        await event.answer("Make Your Own Thunder Bots !! @NoobZen", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"raid"))
@@ -174,7 +174,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )  
      else:
-        await event.answer("Make Your Own Thunder Bots !! @PythonXcoder", cache_time=0, alert=True)
+        await event.answer("Make Your Own Thunder Bots !! @NoobZen", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"extra"))
@@ -193,4 +193,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
    else:
-        await event.answer("Make Your Own Thunder Bots !! @PythonXcoder", cache_time=0, alert=True)
+        await event.answer("Make Your Own Thunder Bots !! @NoobZen", cache_time=0, alert=True)
